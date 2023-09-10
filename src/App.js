@@ -24,7 +24,7 @@ import MediaSzkolne from "./pages/o-szkole/media_szkolne";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route default={<Home />} path="/" element={<Home />} />
         <Route exact path="/" element={<Home />} />
